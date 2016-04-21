@@ -282,7 +282,7 @@ typedef NS_ENUM(NSInteger, DZNPhotoAspect) {
             topLabel.textColor = [UIColor whiteColor];
             topLabel.textAlignment = NSTextAlignmentCenter;
             topLabel.font = [UIFont systemFontOfSize:18.0];
-            topLabel.text = @"移动或缩放", nil);
+            topLabel.text = @"移动或缩放";
             [self.view addSubview:topLabel];
             
             NSDictionary *labels = @{@"label" : topLabel};
